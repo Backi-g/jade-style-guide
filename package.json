@@ -2,7 +2,6 @@
   "name": "museodeljadestyleguide",
   "version": "1.0.0",
   "scripts": {
-    "start": "node app.js",
     "postinstall": "bower install"
   },
   "author": "",
