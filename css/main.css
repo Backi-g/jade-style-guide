@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+:root {
+    --gold: #CDA34F;
+    --daisy: #E9E7DA;
+    --steam: #636B46;
+    --greenery: #373F27;
+}
+
+.default-typography{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph-typography{
+    font-family: 'PT Serif', serif;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label-default {
+    background-color: #777;
+}
+
+
+.code-example {
+    background-color: #f1f1f1;
+    padding: 0.01em 16px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+.code-margin{
+    margin-bottom: 16px!important;
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #00aa88;
+    word-wrap: break-word;
+}
+
+.code-container{
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-width: .2rem;
+    position: relative;
+    border: solid #f7f7f9;
+    border-width: .2rem 0 0;
+}
+
+.circle {
+    text-align: center; float: left;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+    width: 40%;
+}
+
+
+.circleRef{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    margin: 0 auto 20px auto;
+}
+
+.gold{
+    background: var(--gold);
+}
+
+.daisy{
+    background: var(--daisy);
+}
+
+.greenery{
+    background: var(--greenery);
+}
+.steam{
+    background: var(--steam);
+}
+
+.code-brown{
+    color:brown
+}
+
+.code-mediumblue{
+    color:mediumblue;
+}
+
+.code-black{
+    color: black;
+}
+
+.code-red{
+    color:red;
+}
+
+.def-text-color{
+    color: #636B46 !important;
+}
+
+.options-top{
+    padding-top: 50px;
+}

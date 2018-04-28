@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" >
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/variables.css">
+
+        <title >Style Guide</title>
+
+        <style>
+            body{
+                padding-top: 40px;
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <div class="jumbotron" style="background: #E9E7DA;">
+            <div class="container">
+                <h2>Museo del Jade - Style guide</h2>
+                <p>
+                    Lista de todos los elementos y componentes que se utilizan en la página del Museo del Jade
+                </p>
+            </div>
+        </div>
+
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+            <!--Navbar header-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Navbar header-->
+
+
+            <div class="collapse navbar-collapse" id="collapse_target">
+                <ul class="navbar-nav">
+
+                    <!--Colores-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target">
+                            Colores
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                            <a class="dropdown-item" href="#colors"> Paleta de colores</a>
+                        </div>
+                    </li>
+
+
+                    <!--Tipografía-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target">
+                            Tipografía
+                            <span class="carret"></span>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                            <a class="dropdown-item" href="#headers"> Encabezados</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#paragraph"> Párrafo</a>
+                        </div>
+                    </li>
+
+                    <!--Componentes-->
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target"  href="#componentes">
+                            Componentes
+                            <span class="carret"></span>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                            <a class="dropdown-item" href="#buttons">Botones</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#lists">Listas</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#forms">Formularios</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#inputs"> Inputs</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#checkboxes"> Checkboxes</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#radiobuttons"> Radiobuttons</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#dropdowns"> Dropdowns</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#validaciones"> Validaciones</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+        <!-- Start Colors container -->
+
+        <div class="container">
+            <section id="colors" class="options-top" >
+                <h1>Paleta de colores</h1>
+                <p>En cada color se muestra su respectivo código hexadecimal</p>
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <div class="circle">
+                            <a  class="circleRef steam"></a>
+                            <h4 class="tile__title">Steam</h4>
+                            <p><strong>Hex: </strong>#636B46</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3" >
+                        <div class="circle">
+                            <a  class="circleRef gold"></a>
+                            <h4 class="tile__title">Gold</h4>
+                            <p><strong>Hex: </strong> #CDA34F</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="circle">
+                            <a  class="circleRef daisy"></a>
+                            <h4 class="tile__title">Daisy</h4>
+                            <p><strong>Hex: </strong>#E9E7DA</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="circle">
+                            <a  class="circleRef greenery"></a>
+                            <h4 class="tile__title">Greenery</h4>
+                            <p><strong>Hex: </strong>#373F27</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+    <!-- Start tipografia container -->
+        <div class="container">
+            <section id="headers" class="options-top" >
+                <h1>Encabezados</h1>
+                <p>Títulos se deben de implementar con tags que van de h1 a h6</p>
+                <p><b>Font Type: </b> font-family: 'Montserrat', sans-serif; </p>
+
+                <div class="page-header">
+                    <div class="default-typography code-container">
+                        <div class="card-body">
+                            <h1>Heading text <span class="label label-default">h1</span></h1>
+                            <h2>Heading text <span class="label label-default">h2</span></h2>
+                            <h3>Heading text <span class="label label-default">h3</span></h3>
+                            <h4>Heading text <span class="label label-default">h4</span></h4>
+                            <h5>Heading text <span class="label label-default">h5</span></h5>
+                            <h6>Heading text <span class="label label-default">h6</span></h6>
+                        </div>
+                    </div>
+                    <div class="code-example">
+                        <h3> Código</h3>
+                        <div class="code-margin">
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>h1<span class="code-mediumblue">&gt;</span></span>Heading text <span class="code-brown"><span class="code-mediumblue">&lt;</span>span<span class="code-red"> class<span class="code-mediumblue">="label label-default"</span></span><span class="code-mediumblue">&gt;</span></span>h1<span class="code-brown"><span class="code-mediumblue">&lt;</span>/span<span class="code-mediumblue">&gt;</span></span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/h1<span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>h2<span class="code-mediumblue">&gt;</span></span>Heading text <span class="code-brown"><span class="code-mediumblue">&lt;</span>span<span class="code-red"> class<span class="code-mediumblue">="label label-default"</span></span><span class="code-mediumblue">&gt;</span></span>h2<span class="code-brown"><span class="code-mediumblue">&lt;</span>/span<span class="code-mediumblue">&gt;</span></span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/h2<span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>h3<span class="code-mediumblue">&gt;</span></span>Heading text <span class="code-brown"><span class="code-mediumblue">&lt;</span>span<span class="code-red"> class<span class="code-mediumblue">="label label-default"</span></span><span class="code-mediumblue">&gt;</span></span>h3<span class="code-brown"><span class="code-mediumblue">&lt;</span>/span<span class="code-mediumblue">&gt;</span></span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/h3<span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>h4<span class="code-mediumblue">&gt;</span></span>Heading text <span class="code-brown"><span class="code-mediumblue">&lt;</span>span<span class="code-red"> class<span class="code-mediumblue">="label label-default"</span></span><span class="code-mediumblue">&gt;</span></span>h4<span class="code-brown"><span class="code-mediumblue">&lt;</span>/span<span class="code-mediumblue">&gt;</span></span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/h4<span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>h5<span class="code-mediumblue">&gt;</span></span>Heading text <span class="code-brown"><span class="code-mediumblue">&lt;</span>span<span class="code-red"> class<span class="code-mediumblue">="label label-default"</span></span><span class="code-mediumblue">&gt;</span></span>h5<span class="code-brown"><span class="code-mediumblue">&lt;</span>/span<span class="code-mediumblue">&gt;</span></span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/h5<span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>h6<span class="code-mediumblue">&gt;</span></span>Heading text <span class="code-brown"><span class="code-mediumblue">&lt;</span>span<span class="code-red"> class<span class="code-mediumblue">="label label-default"</span></span><span class="code-mediumblue">&gt;</span></span>h6<span class="code-brown"><span class="code-mediumblue">&lt;</span>/span<span class="code-mediumblue">&gt;</span></span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/h6<span class="code-mediumblue">&gt;</span></span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    <!-- End tipografia container -->
+
+
+    <!-- Start Paragraph container -->
+    <div class="container">
+        <section id="paragraph" class="options-top" >
+            <h1> Párrafo</h1>
+            <p>Los textos largos representados como párrafos deben de estar dentro de tag <code>p</code> </p>
+            <p><b>Font Type: </b> font-family: Nanum Myeongjo </p>
+            <div class="page-header">
+                <div class="code-container">
+                    <div class="card-body">
+                        <p class="paragraph-typography">Este es un ejemplo de un texto con la tipografía seleccionada</p>
+                    </div>
+                </div>
+
+                <div class="code-example">
+                    <h3> Código</h3>
+                    <div class="code-margin">
+                        <span class="code-brown"><span class="code-mediumblue">&lt;</span>p<span class="code-red"> class<span class="code-mediumblue">="paragraph-typography"</span></span><span class="code-mediumblue">&gt;</span><span class="code-black">Este es un ejemplo de un texto con la tipografía seleccionada</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/p<span class="code-mediumblue">&gt;</span></span></span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+    <!-- End paragraph container -->
+
+    <!-- Start button container -->
+    <div class="container">
+        <section id="buttons" class="options-top" >
+            <h1> Botones</h1>
+            <p>Los botones deben de ser implementados de acuerdo a la especificación de bootstrap 4 en: </p>
+            <ul>
+                <li>Tamaño</li>
+                <li>Estado</li>
+                <li>Estilo</li>
+                <li>Tipo</li>
+            </ul>
+            <div class="page-header">
+
+                <!-- Tamaño -->
+                <div class="options-top" >
+                    <h3 class="def-text-color">Tamaño</h3>
+                    <ul>
+                        <li><b>Largo:</b> utilizar la clase .btn-lg</li>
+                        <li><b>Mediano:</b> utilizar la clase .btn-md </li>
+                        <li><b>Pequeño:</b> utilizar la clase .btn-sm</li>
+                    </ul>
+
+
+                    <div class="code-container">
+                        <div class="card-body">
+                            <button  class="btn btn-primary btn-lg">Largo</button>
+                            <button class="btn btn-primary btn-md">Mediano</button>
+                            <button  class="btn btn-primary btn-sm">Pequeño</button>
+                        </div>
+                    </div>
+
+                    <div class="code-example">
+                        <h3> Código</h3>
+                        <div class="code-margin">
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-primary btn-lg"</span></span> <span class="code-mediumblue">&gt;</span><span class="code-black">Largo</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-primary btn-md"</span></span> <span class="code-mediumblue">&gt;</span><span class="code-black">Mediano</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-primary btn-sm"</span></span> <span class="code-mediumblue">&gt;</span><span class="code-black">Pequeño</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Estado -->
+
+                <div class="options-top" >
+                    <h3 class="def-text-color">Estado</h3>
+                    <ul>
+                        <li><b>Activo:</b> Se puede utilizar el tag <code>button</code> o la pseudo clase active</li>
+                        <li><b>Inactivo:</b> Atributo disabled </li>
+                    </ul>
+
+
+                    <div class="code-container">
+                        <div class="card-body">
+                            <button  class="btn btn-primary btn-lg">Activo</button>
+                            <button  class="btn btn-lg btn-primary" disabled>Inactivo</button>
+
+                        </div>
+                    </div>
+
+                    <div class="code-example">
+                        <h3> Código</h3>
+                        <div class="code-margin">
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-primary btn-lg"</span></span> <span class="code-mediumblue">&gt;</span><span class="code-black">Activo</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-primary btn-md"</span> disabled</span> <span class="code-mediumblue">&gt;</span><span class="code-black">Inactivo</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Estilo -->
+                <div class="options-top" >
+                    <h3 class="def-text-color">Estilo</h3>
+                    <ul>
+                        <li><b>Primario:</b> utilizar la clase .btn-primary</li>
+                        <li><b>Secundario:</b> utilizar la clase .btn-secondary </li>
+                        <li><b>Success:</b> utilizar la clase .btn-success </li>
+                        <li><b>Información:</b> utilizar la clase .btn-info </li>
+                        <li><b>Warning:</b> utilizar la clase .btn-warning </li>
+                    </ul>
+
+
+                    <div class="code-container">
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary">Primario</button>
+                            <button type="button" class="btn btn-secondary">Secundario</button>
+                            <button type="button" class="btn btn-success">Success</button>
+                            <button type="button" class="btn btn-info">Información</button>
+                            <button type="button" class="btn btn-warning">Warning</button>
+                        </div>
+                    </div>
+
+                    <div class="code-example">
+                        <h3> Código</h3>
+                        <div class="code-margin">
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-primary"</span></span> <span class="code-mediumblue">&gt;</span><span class="code-black">Primario</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-secondary"</span></span> <span class="code-mediumblue">&gt;</span><span class="code-black">Secundario</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-success"</span></span> <span class="code-mediumblue">&gt;</span><span class="code-black">Success</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-info"</span></span> <span class="code-mediumblue">&gt;</span><span class="code-black">Información</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-warning"</span></span> <span class="code-mediumblue">&gt;</span><span class="code-black">Warning</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Tipo -->
+                <div class="options-top" >
+                    <h3 class="def-text-color">Tipo</h3>
+                    <ul>
+                        <li><b>Submit:</b> utilizar el value como submit en tags que no son button, si el tag es <code>button</code> usar type='submit'</li>
+                        <li><b>Reset:</b> utilizar el value como reset en tags que no son button, si el tag es <code>button</code> usar type='reset' </li>
+                    </ul>
+
+
+                    <div class="code-container">
+                        <div class="card-body">
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                            <input class="btn btn-primary" type="reset" value="Reset">
+                        </div>
+                    </div>
+
+                    <div class="code-example">
+                        <h3> Código</h3>
+                        <div class="code-margin">
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-primary"</span></span> <span class="code-mediumblue">&gt;</span><span class="code-black">Primario</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>button<span class="code-red"> class<span class="code-mediumblue">="btn btn-secondary"</span></span> <span class="code-mediumblue">&gt;</span><span class="code-black">Secundario</span><span class="code-brown"><span class="code-mediumblue">&lt;</span>/button<span class="code-mediumblue">&gt;</span></span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- End button container -->
+
+    <!-- Start list container -->
+    <div class="container">
+        <section id="lists" class="options-top"  >
+            <h1> Listas</h1>
+            <p>Se utilizará el componente list group que ofrece bootstrap 4, un componente que se utiliza para desplegar grupos de contenido </p>
+
+            <div class="page-header">
+                <div class="code-container">
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">Item 1</li>
+                            <li class="list-group-item">Item 2</li>
+                            <li class="list-group-item">Item 3</li>
+                            <li class="list-group-item">Item 4</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="code-example">
+                    <h3> Código</h3>
+                    <div class="code-margin">
+                        <span class="code-brown"><span class="code-mediumblue">&lt;</span>ul<span class="code-red"> class<span class="code-mediumblue">="list-group"</span></span><span class="code-mediumblue">&gt;</span></span><br>&nbsp;
+                        <span class="code-brown"><span class="code-mediumblue">&lt;</span>li<span class="code-red"> class<span class="code-mediumblue">="list-group-item"</span></span><span class="code-mediumblue">&gt;</span></span>Item 1<span class="code-brown"><span class="code-mediumblue">&lt;</span>/li<span class="code-mediumblue">&gt;</span></span><br>&nbsp;
+                        <span class="code-brown"><span class="code-mediumblue">&lt;</span>li<span class="code-red"> class<span class="code-mediumblue">="list-group-item"</span></span><span class="code-mediumblue">&gt;</span></span>Item 2<span class="code-brown"><span class="code-mediumblue">&lt;</span>/li<span class="code-mediumblue">&gt;</span></span><br>&nbsp;
+                        <span class="code-brown"><span class="code-mediumblue">&lt;</span>li<span class="code-red"> class<span class="code-mediumblue">="list-group-item"</span></span><span class="code-mediumblue">&gt;</span></span>Item 3<span class="code-brown"><span class="code-mediumblue">&lt;</span>/li<span class="code-mediumblue">&gt;</span></span><br>&nbsp;
+                        <span class="code-brown"><span class="code-mediumblue">&lt;</span>li<span class="code-red"> class<span class="code-mediumblue">="list-group-item"</span></span><span class="code-mediumblue">&gt;</span></span>Item 4<span class="code-brown"><span class="code-mediumblue">&lt;</span>/li<span class="code-mediumblue">&gt;</span></span><br>
+                        <span class="code-brown"><span class="code-mediumblue">&lt;</span>/ul<span class="code-mediumblue">&gt;</span></span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+    <!-- End list container -->
+
+
+    <!-- Start list container -->
+    <div class="container">
+        <section id="forms" class="options-top"  >
+            <h1> Formularios</h1>
+            <p>En esta sección se muestran los elementos básicos que se utilizarán en los formularios de la aplicación </p>
+            <ul>
+                <li>Inputs</li>
+                <li>Checkboxes / Radios</li>
+                <li>Dropdowns</li>
+                <li>Validaciones</li>
+            </ul>
+
+            <div class="page-header">
+
+                <!-- Inputs -->
+                <div id="inputs" class="options-top" >
+                    <h3 class="def-text-color">Inputs</h3>
+                    <p>Bootstrap utiliza HTLM 5, por lo tanto todos los elementos requieren un atributo <code>type</code></p>
+                    <p><b>Tipos de inputs:</b></p>
+                    <p> text, password, datetime-local, date, month, time, week, number, email, url, search, tel, color</p>
+                    <p>Agregue las clases <code>.form-control-lg</code> <code>.form-control-md</code> y <code>.form-control-sm</code> para determinar el ancho del input</p>
+
+                    <div class="code-container">
+                        <div class="card-body">
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Name</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" >
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="code-example">
+                        <h3> Código</h3>
+                        <div class="code-margin">
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>div<span class="code-red"> class<span class="code-mediumblue">="form-group"</span></span><span class="code-mediumblue">&gt;</span></span><br>&nbsp; <span class="code-brown"><span class="code-mediumblue">&lt;</span>label<span class="code-red"> for<span class="code-mediumblue">="usr"</span></span><span class="code-mediumblue">&gt;</span></span>Name:<span class="code-brown"><span class="code-mediumblue">&lt;</span>/label<span class="code-mediumblue">&gt;</span></span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>input<span class="code-red"> type<span class="code-mediumblue">="text"</span> class<span class="code-mediumblue">="form-control"</span> id<span class="code-mediumblue">="usr"</span></span><span class="code-mediumblue">&gt;</span></span><br><span class="code-brown"><span class="code-mediumblue">&lt;</span>/div<span class="code-mediumblue">&gt;</span></span><br><span class="code-brown"><span class="code-mediumblue">&lt;</span>div<span class="code-red"> class<span class="code-mediumblue">="form-group"</span></span><span class="code-mediumblue">&gt;</span></span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>label<span class="code-red"> for<span class="code-mediumblue">="pwd"</span></span><span class="code-mediumblue">&gt;</span></span>Password:<span class="code-brown"><span class="code-mediumblue">&lt;</span>/label<span class="code-mediumblue">&gt;</span></span><br>&nbsp; <span class="code-brown"><span class="code-mediumblue">&lt;</span>input<span class="code-red"> type<span class="code-mediumblue">="password"</span> class<span class="code-mediumblue">="form-control"</span> id<span class="code-mediumblue">="pwd"</span></span><span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/div<span class="code-mediumblue">&gt;</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Checkboxes -->
+
+                <div id="checkboxes" class="options-top" >
+                    <h3 class="def-text-color">Checkboxes</h3>
+                    <p>Permite al usuario elegir más de una opción</p>
+                    <p> Agregue la clase  <code>.checkbox-inline</code> para que los checkboxes aparezcan en la misma linea</p>
+                    <p> Agregue la clase <code>.form-check</code> para que los checkboxes y radio buttons tengan el espaciado correcto</p>
+
+                    <div class="code-container">
+                        <div class="card-body">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" value="">
+                                    Option 1 (Active)
+                                </label>
+                            </div>
+                            <div class="form-check disabled">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" value="" disabled>
+                                    Option two (Disabled)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code-example">
+                        <h3> Código</h3>
+                        <div class="code-margin">
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span></span><span class="code-brown">div</span> <span class="code-red">class=<span class="code-mediumblue">"form-check"</span></span><span class="code-mediumblue">&gt;</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>label</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-check-label"</span><span class="code-mediumblue">&gt;</span><br>&nbsp;&nbsp;&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>input</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-check-input"</span> <span class="code-red">type=</span><span class="code-mediumblue">"checkbox"</span> <span class="code-red">value=</span><span class="code-mediumblue">""</span><span class="code-mediumblue">&gt;</span>Option 1 (Active)<br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/label<span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/div<span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span></span><span class="code-brown">div</span> <span class="code-red">class=<span class="code-mediumblue">"form-check disabled"</span></span><span class="code-mediumblue">&gt;</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>label</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-check-label"</span><span class="code-mediumblue">&gt;</span><br>&nbsp;&nbsp;&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>input</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-check-input"</span> <span class="code-red">type=</span><span class="code-mediumblue">"checkbox"</span> <span class="code-red">value=</span><span class="code-mediumblue">""</span> <span class="code-red">disabled</span><span class="code-mediumblue">&gt;</span>Option 2 (Disabled)<br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/label<span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/div<span class="code-mediumblue">&gt;</span></span><br>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Radio Buttons -->
+                <div id="radiobuttons" class="options-top" >
+                    <h3 class="def-text-color">Radio Buttons</h3>
+                    <p> Limita al usuario a elegir una sola opción</p>
+                    <p> Agregue la clase <code>.form-check</code> para que los checkboxes y radio buttons tengan el espaciado correcto</p>
+                    <p> Agregue la clase <code>.disabled</code> para que los checkboxes y radio buttons estén deshabilitados</p>
+
+
+                    <div class="code-container">
+                        <div class="card-body">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="radios" value="">
+                                        Radio 1(Active)
+                                    </label>
+                                </div>
+                                <div class="form-check disabled">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio"  name="radios" value="" disabled>
+                                        Radio 2 (Disabled)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code-example">
+                        <h3> Código</h3>
+                        <div class="code-margin">
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span></span><span class="code-brown">div</span> <span class="code-red">class=<span class="code-mediumblue">"form-check"</span></span><span class="code-mediumblue">&gt;</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>label</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-check-label"</span><span class="code-mediumblue">&gt;</span><br>&nbsp;&nbsp;&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>input</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-check-input"</span> <span class="code-red">type=</span><span class="code-mediumblue">"radio"</span> <span class="code-red">value=</span><span class="code-mediumblue">""</span> <span class="code-red">name=</span><span class="code-mediumblue">"radios"</span> <span class="code-mediumblue">&gt;</span> Option 1 (Active)<br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/label<span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/div<span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span></span><span class="code-brown">div</span> <span class="code-red">class=<span class="code-mediumblue">"form-check disabled"</span></span><span class="code-mediumblue">&gt;</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>label</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-check-label"</span><span class="code-mediumblue">&gt;</span><br>&nbsp;&nbsp;&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>input</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-check-input"</span> <span class="code-red">type=</span><span class="code-mediumblue">"radio"</span> <span class="code-red">name=</span><span class="code-mediumblue">"radios"</span> <span class="code-red">value=</span><span class="code-mediumblue">""</span> <span class="code-red">disabled</span><span class="code-mediumblue">&gt;</span>Option 2 (Disabled)<br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/label<span class="code-mediumblue">&gt;</span></span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/div<span class="code-mediumblue">&gt;</span></span><br>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Dropdowns -->
+                <div id="dropdowns" class="options-top" >
+                    <h3 class="def-text-color">Dropdowns</h3>
+                    <p> Permite al usuario elegir una opción de una lista predefinida</p>
+                    <p> Agregue la clase <code>.dropdown-toggle-split</code> para agregar espacio entre el texto del dropdown y el icono</p>
+                    <p> Agregue las clases <code>.btn-lg</code>, <code>.btn-md</code> y <code>.btn-sm</code> en el botón para determinar el tamaño del dropdown</p>
+                    <p> Agregue un header al dropdown poniendole la clase <code>.dropdown-header</code></p>
+
+                    <div class="code-container">
+                        <div class="dropdown" id="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Selecione una opción
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#dropdown">Opción 1</a>
+                                <a class="dropdown-item" href="#dropdown">Opción 2</a>
+                                <a class="dropdown-item" href="#dropdown">Opción 3</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code-example">
+                        <h3> Código</h3>
+                        <div class="code-margin">
+                            <span class="code-brown"><span class="code-mediumblue">&lt; </span>div</span> <span class="code-red">class=</span><span class="code-mediumblue">"dropdown"</span><span class="nt">&gt;</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt; </span>button</span> <span class="code-red">class=</span><span class="code-mediumblue">"btn btn-secondary dropdown-toggle"</span> <span class="code-red">type=</span><span class="code-mediumblue">"button"</span> <span class="code-red">id=</span><span class="code-mediumblue">"dropdownMenuButton"</span> <span class="code-red">data-toggle=</span><span class="code-mediumblue">"dropdown"</span> <span class="code-red">aria-haspopup=</span><span class="code-mediumblue">"true"</span>
+                            <span class="code-red">aria-expanded=</span><span class="code-mediumblue">"false"</span><span class="code-brown">&gt;</span><br>&nbsp;&nbsp;
+                            Selecione una opción<br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/button&gt;</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>div</span> <span class="code-red">class=</span><span class="code-mediumblue">"dropdown-menu"</span> <span class="code-red">aria-labelledby=</span><span class="code-mediumblue">"dropdownMenuButton"</span><span class="code-brown">&gt;</span><br>&nbsp;&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>a</span> <span class="code-red">class=</span><span class="code-mediumblue">"dropdown-item"</span> <span class="code-red">href=</span><span class="code-mediumblue">"#"</span><span class="code-brown">&gt;</span>Opción 1<span class="code-brown"><span class="code-mediumblue">&lt;</span>/a&gt;</span><br>&nbsp;&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>a</span> <span class="code-red">class=</span><span class="code-mediumblue">"dropdown-item"</span> <span class="code-red">href=</span><span class="code-mediumblue">"#"</span><span class="code-brown">&gt;</span>Opción 2<span class="code-brown"><span class="code-mediumblue">&lt;</span>/a&gt;</span><br>&nbsp;&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>a</span> <span class="code-red">class=</span><span class="code-mediumblue">"dropdown-item"</span> <span class="code-red">href=</span><span class="code-mediumblue">"#"</span><span class="code-brown">&gt;</span>Opción 3<span class="code-brown"><span class="code-mediumblue">&lt;</span>/a&gt;</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/div&gt;</span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/div&gt;</span>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Validaciones -->
+
+                <div id="validaciones" class="options-top" >
+                    <h3 class="def-text-color">Validaciones</h3>
+                    <p> Bootstrap contiene estilos de validaciones para casi todos los componentes</p>
+                    <p>Agregue las siguientes clases en los input que desea validar</p>
+                    <ul>
+                        <li><code>.is-valid</code></li>
+                        <li><code>.is-invalid</code></li>
+                    </ul>
+
+                    <p>Utilice las clases <code>.valid-feedback</code> y <code>.invalid-feedback</code> para agregar texto que ayude al usuario</p>
+
+                    <p>En la página del Museo del Jade, se agregará textos de retroalimentación solo en los inputs que tienen errores</p>
+
+
+                    <div class="code-container">
+
+                        <div class="form-group">
+                            <label class="form-control-label" for="inputSuccess1">Nombre</label>
+                            <input type="text" class="form-control is-valid" id="inputSuccess1">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-control-label" for="inputWarning1">Email</label>
+                            <input type="email" class="form-control is-invalid" id="inputWarning1">
+                            <div class="invalid-feedback">
+                                Por favor ingrese una dirección válida de correo test@email.com
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code-example">
+                        <h3> Código</h3>
+                        <div class="code-margin">
+                            <span class="code-brown"><span class="code-mediumblue">&lt; </span>div</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-group"</span><span class="code-mediumblue">&gt;</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt; </span>label</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-control-label"</span> <span class="code-red">for=</span><span class="code-mediumblue">"inputSuccess1"</span>
+                            <span class="code-brown">&gt;</span>Nombre<span class="code-brown"><span class="code-mediumblue">&lt;</span>/label&gt;</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>input</span> <span class="code-red">type=</span><span class="code-mediumblue">"text"</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-control is-valid"</span> <span class="code-red">id=</span><span class="code-mediumblue">"inputSuccess1"</span><span class="code-brown">&gt;</span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/div&gt;</span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt; </span>div</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-group"</span><span class="code-mediumblue">&gt;</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt; </span>label</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-control-label"</span> <span class="code-red">for=</span><span class="code-mediumblue">"inputWarning1"</span>
+                            <span class="code-brown">&gt;</span>Email<span class="code-brown"><span class="code-mediumblue">&lt;</span>/label&gt;</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>input</span> <span class="code-red">type=</span><span class="code-mediumblue">"email"</span> <span class="code-red">class=</span><span class="code-mediumblue">"form-control is-invalid"</span> <span class="code-red">id=</span><span class="code-mediumblue">"inputWarning1"</span><span class="code-brown">&gt;</span><br>&nbsp;
+
+                            <span class="code-brown"><span class="code-mediumblue">&lt; </span>div</span> <span class="code-red">class=</span><span class="code-mediumblue">"invalid-feedback"</span><span class="code-mediumblue">&gt;</span><br>&nbsp;&nbsp;
+                            <span> Por favor ingrese una dirección válida de correo test@email.com</span><br>&nbsp;
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/div&gt;</span><br>
+                            <span class="code-brown"><span class="code-mediumblue">&lt;</span>/div&gt;</span><br>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- End validaciones container -->
+
+            </div>
+        </section>
+
+    </div>
+    <!-- End forms container -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first then Bootstrap JS -->
+    <script src="bower_components/jquery/dist/jquery.min.js" ></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.4/popper.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    </body>
+</html>
